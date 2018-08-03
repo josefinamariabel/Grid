@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contenedor{
+	display: grid;
+	grid-template-columns:100px 100px 200px 100px 100px;  
+	grid-template-rows:repeat(3,100px);
+	grid-template-areas:"uno dos dos tres tres"
+						"cuatro dos dos cinco cinco"
+						"seis siete ocho nueve diez";
+	grid-gap:15px;					
+}
+
+div{
+	background-color: red;
+	}
+
+.h{
+	grid-area: uno;
+	}
+.i{
+	grid-area: dos;
+	}
+.j{
+	grid-area:tres;
+	}
+.k{
+	grid-area: cuatro;
+	}	
+.l{
+	grid-area: cinco;
+	}	
+.m{
+	grid-area: sies;
+	}	
+.n{
+	grid-area: siete;
+	}
+.o{
+	grid-area: ocho;
+	}
+.p{
+	grid-area: nueve;
+	}
+.n{
+	grid-area: diez;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
